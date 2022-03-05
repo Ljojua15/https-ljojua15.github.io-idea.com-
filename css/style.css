@@ -1,3 +1,130 @@
-body {
+
+.header-main{ 
     background-color: black;
+    width: 100%;
+    height: 150px;
+    z-index: 5;
+    position: fixed;
+    flex-wrap: wrap;
+}
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header-ul {
+    display: flex;
+
+}
+.logo {
+    margin-top: 10px;
+}
+.header-ul a {
+    color: white;
+    text-shadow: red;
+    font-size: 25px;
+}
+.header-ul li {
+    margin-right: 20px;   
+} 
+
+
+.secdiv1 {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.leftimg {
+    margin-top: 160px;
+    width: 600px;
+    height: 1000px;
+}
+.rightimg{
+    width: 600px;
+    height: 1000px;
+    margin-top: 160px;
+}
+
+
+
+
+
+
+
+.top-div {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-divchild{
+    width: 150px;
+    height: 50px;
+    border: 5px solid red;
+    border-radius: 20%;
+    text-align: center;
+   
+    
+
+
+
+}
+.top-divchild h3 {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+.down-div {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.down-divmiddle{
+    height: 750px;
+    width: 10px;
+    background-color: white; 
+    border-radius: 30px;
+}
+
+.down-divleft {
+    margin-top: 150px;
+    text-align: start;
+    height: 780px;
+    width: 48%;
+    border-radius: 30px;
+    margin-top: px;
+}
+
+.down-divright {
+    margin-top: 150px;
+    text-align: start;
+    height: 780px;
+    width: 48%;
+    border-radius: 30px;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
 }
